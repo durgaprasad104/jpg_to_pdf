@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 import io
 
-st.title("JPG to PDF Converter without Cropping")
+st.title("JPG to PDF Converter")
 
 uploaded_files = st.file_uploader(
     "Upload JPG images", type=["jpg", "jpeg"], accept_multiple_files=True
